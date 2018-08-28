@@ -16,7 +16,9 @@
 @property (nonatomic , strong)NSMutableArray * attributeArray;
 </pre>
 
-####布局对象
+
+#### 布局对象
+
 
 <pre>
 -(UICollectionView *)collectionView{
