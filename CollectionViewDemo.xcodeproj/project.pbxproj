@@ -15,6 +15,11 @@
 		EE1987892133F47300ACD3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1987882133F47300ACD3C5 /* main.m */; };
 		EE1987932133F47300ACD3C5 /* CollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1987922133F47300ACD3C5 /* CollectionViewDemoTests.m */; };
 		EE19879E2133F47300ACD3C5 /* CollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE19879D2133F47300ACD3C5 /* CollectionViewDemoUITests.m */; };
+		EE1987B12133F5F900ACD3C5 /* LMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1987B02133F5F900ACD3C5 /* LMCollectionViewCell.m */; };
+		EE1987B521351F7300ACD3C5 /* LMMyLayout1.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1987B421351F7300ACD3C5 /* LMMyLayout1.m */; };
+		EE1987B821353CA100ACD3C5 /* LMMyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1987B721353CA100ACD3C5 /* LMMyCollectionViewController.m */; };
+		EE1987BB21353CC600ACD3C5 /* LMSystemCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1987BA21353CC600ACD3C5 /* LMSystemCollectionViewController.m */; };
+		EE1987BE2135478400ACD3C5 /* LMMyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1987BD2135478400ACD3C5 /* LMMyCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		EE1987992133F47300ACD3C5 /* CollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE19879D2133F47300ACD3C5 /* CollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		EE19879F2133F47300ACD3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1987AF2133F5F900ACD3C5 /* LMCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMCollectionViewCell.h; sourceTree = "<group>"; };
+		EE1987B02133F5F900ACD3C5 /* LMCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMCollectionViewCell.m; sourceTree = "<group>"; };
+		EE1987B321351F7300ACD3C5 /* LMMyLayout1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMMyLayout1.h; sourceTree = "<group>"; };
+		EE1987B421351F7300ACD3C5 /* LMMyLayout1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMMyLayout1.m; sourceTree = "<group>"; };
+		EE1987B621353CA100ACD3C5 /* LMMyCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMMyCollectionViewController.h; sourceTree = "<group>"; };
+		EE1987B721353CA100ACD3C5 /* LMMyCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMMyCollectionViewController.m; sourceTree = "<group>"; };
+		EE1987B921353CC600ACD3C5 /* LMSystemCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMSystemCollectionViewController.h; sourceTree = "<group>"; };
+		EE1987BA21353CC600ACD3C5 /* LMSystemCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMSystemCollectionViewController.m; sourceTree = "<group>"; };
+		EE1987BC2135478400ACD3C5 /* LMMyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMMyCollectionViewCell.h; sourceTree = "<group>"; };
+		EE1987BD2135478400ACD3C5 /* LMMyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMMyCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CC18BB62135947100133C5E /* system */ = {
+			isa = PBXGroup;
+			children = (
+				EE1987B921353CC600ACD3C5 /* LMSystemCollectionViewController.h */,
+				EE1987BA21353CC600ACD3C5 /* LMSystemCollectionViewController.m */,
+				EE1987AF2133F5F900ACD3C5 /* LMCollectionViewCell.h */,
+				EE1987B02133F5F900ACD3C5 /* LMCollectionViewCell.m */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		1CC18BB72135949A00133C5E /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				EE1987BC2135478400ACD3C5 /* LMMyCollectionViewCell.h */,
+				EE1987BD2135478400ACD3C5 /* LMMyCollectionViewCell.m */,
+				EE1987B621353CA100ACD3C5 /* LMMyCollectionViewController.h */,
+				EE1987B721353CA100ACD3C5 /* LMMyCollectionViewController.m */,
+				EE1987B321351F7300ACD3C5 /* LMMyLayout1.h */,
+				EE1987B421351F7300ACD3C5 /* LMMyLayout1.m */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
 		EE19876D2133F47100ACD3C5 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +144,8 @@
 				EE19877A2133F47100ACD3C5 /* AppDelegate.m */,
 				EE19877C2133F47100ACD3C5 /* ViewController.h */,
 				EE19877D2133F47100ACD3C5 /* ViewController.m */,
+				1CC18BB72135949A00133C5E /* custom */,
+				1CC18BB62135947100133C5E /* system */,
 				EE19877F2133F47100ACD3C5 /* Main.storyboard */,
 				EE1987822133F47300ACD3C5 /* Assets.xcassets */,
 				EE1987842133F47300ACD3C5 /* LaunchScreen.storyboard */,
@@ -194,6 +235,7 @@
 		EE19876E2133F47100ACD3C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LM;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "李敏";
 				TargetAttributes = {
@@ -263,8 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE19877E2133F47100ACD3C5 /* ViewController.m in Sources */,
+				EE1987BE2135478400ACD3C5 /* LMMyCollectionViewCell.m in Sources */,
+				EE1987B12133F5F900ACD3C5 /* LMCollectionViewCell.m in Sources */,
 				EE1987892133F47300ACD3C5 /* main.m in Sources */,
+				EE1987B821353CA100ACD3C5 /* LMMyCollectionViewController.m in Sources */,
 				EE19877B2133F47100ACD3C5 /* AppDelegate.m in Sources */,
+				EE1987B521351F7300ACD3C5 /* LMMyLayout1.m in Sources */,
+				EE1987BB21353CC600ACD3C5 /* LMSystemCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
